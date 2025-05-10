@@ -1,4 +1,4 @@
-# Data Analysis with AI (DA2I)
+# AI Productivity Tools
 
 Welcome to the "Data Analysis with AI" (DA2I) training led by Dr. Leandro Nunes de Castro at Florida Gulf Coast University. This course is designed to introduce you to the core principles of data analysis and demonstrate how artificial intelligence (AI) can enhance every stage of the data analysis process, from summarizing and visualizing data to developing compelling data stories and dashboards.
 
