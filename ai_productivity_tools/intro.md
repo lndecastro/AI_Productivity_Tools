@@ -1,13 +1,43 @@
-# Data Analysis with AI (DA2I)
+# Welcome to the *AI Productivity Tools* Workshop
 
-Welcome to the "Data Analysis with AI" (DA2I) training led by Dr. Leandro Nunes de Castro at Florida Gulf Coast University. This course is designed to introduce you to the core principles of data analysis and demonstrate how artificial intelligence (AI) can enhance every stage of the data analysis process, from summarizing and visualizing data to developing compelling data stories and dashboards.
+## Empowering Your Workflow with AI
 
-Throughout the training, you will:
-- Explore the fundamentals of data analysis and AI-enhanced techniques.
-- Gain practical experience with leading AI tools such as ChatGPT, Claude.ai, and Perplexity, learning how they can assist in summarizing, interpreting, and visualizing data.
-- Understand the main careers in data science and the skills required for each role, including data analyst, data scientist, machine learning engineer, and more.
-- Learn best practices in data storytelling, dashboard design, and prompt engineering to extract and communicate insights effectively.
-- Discuss important topics such as the limitations, ethics, and accuracy of AI-generated outputs.
+Artificial Intelligence (AI) is rapidly transforming the way we work, communicate, and manage information. In this hands-on workshop, we explore how AI-powered tools can be seamlessly integrated into everyday professional tasks to significantly boost productivity, creativity, and decision-making.
+
+This workshop is part of the **Dendritic Institute**'s mission to advance AI and Data Science education through human-centered approaches. Designed for professionals, educators, researchers, and students alike, this session emphasizes **practical applications** and **ethical considerations** surrounding the use of generative AI technologies.
+
+## 1. What You'll Learn
+
+Participants will explore AI tools across the following domains:
+
+- **Document Summarization and Preparation**  
+  Learn how to summarize texts, extract key insights, and generate professional-quality documents using tools like ChatGPT, Claude.ai, and Perplexity AI.
+
+- **Image and Diagram Generation**  
+  Generate high-quality visuals, SmartArt, and concept diagrams from text or bullet lists with tools like ChatGPT-4o, Meta.ai, and Napkin.ai.
+
+- **Slide and Presentation Creation**  
+  Automatically generate engaging, professional slides from existing text or documents using Gamma.app and Microsoft Copilot.
+
+- **Email Management and Communication**  
+  Streamline your inbox with smart summaries, auto-replies, and personalized responses using AI tools.
+
+- **Meeting Transcription and Summarization**  
+  Use tools like Otter.ai and Fireflies.ai to transcribe meetings, extract action items, and share summarized notes with your team.
+
+## 2. Structure and Approach
+
+Each session is structured around a short introduction, hands-on activity, and a reflection period. You will be encouraged to:
+
+- Experiment with AI prompts tailored to your professional context
+- Compare outputs across different tools
+- Share findings and discuss best practices
+- Develop your own AI-enhanced productivity workflow
+
+At the end of the workshop, participants will complete a final project applying AI tools to a task relevant to their field or organization.
+
+
+
 
 No programming experience is required. The focus is on building your ability to extract business-oriented insights, visualize relationships, and tell impactful stories with data, both with and without AI. By the end of this course, you will be equipped to apply AI-augmented workflows to real-world data projects and contribute to a data-driven culture in any organization.
 
