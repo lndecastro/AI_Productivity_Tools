@@ -3,16 +3,16 @@ format: jb-book
 root: intro.md
 
 chapters:
-  - file: Topic 1: Introduction to AI for Productivity.md
+  - file: Topic1_Introduction_to_AI_for_Productivity.md
     title: "Topic 1: Introduction to AI for Productivity"
-  - file: Topic 2: Document Reading, Summarization, and Preparation.md
+  - file: Topic2_Document_Reading_Summarization_and_Preparation.md
     title: "Topic 2: Document Reading, Summarization, and Preparation"
-  - file: Topic 3: Image and SmartArt Generation.md
+  - file: Topic3_Image_and_SmartArt_Generation.md
     title: "Topic 3: Image and SmartArt Generation"
-  - file: Topic 4: Slide and Presentation Generation.md
+  - file: Topic4_Slide_and_Presentation_Generation.md
     title: "Topic 4: Slide and Presentation Generation"
-  - file: Topic 5: Email Management.md
+  - file: Topic5_Email_Management.md
     title: "Topic 5: Email Management"
-  - file: Topic 6: Meeting Recording and Summarization.md
+  - file: Topic6_Meeting_Recording_and_Summarization.md
     title: "Topic 6: Meeting Recording and Summarization"
 
