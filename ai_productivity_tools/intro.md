@@ -25,6 +25,8 @@ Participants will explore AI tools across the following domains:
 - **Meeting Transcription and Summarization**  
   Use tools like Otter.ai and Fireflies.ai to transcribe meetings, extract action items, and share summarized notes with your team.
 
+![AI Productivity Tools - Visual Selection](AIProductivityTools.png)
+
 ## 2. Structure and Approach
 
 Each session is structured around a short introduction, hands-on activity, and a reflection period. You will be encouraged to:
