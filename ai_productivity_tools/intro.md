@@ -28,7 +28,7 @@ Participants will explore AI tools across the following domains:
 - **Personal Assistants**  
   Use tools like aistudio.google.com to help you navigate through various tools and environments, working as a personal voice-assistant capable of interacting with the physical and digital worlds.
   
-![AI Productivity Tools - Visual Selection](AIProductivityTools.png)
+![AI Productivity Tools - Visual Selection](AI_Productivity_Toolsv2.png)
 
 ## 2. Structure and Approach
 
