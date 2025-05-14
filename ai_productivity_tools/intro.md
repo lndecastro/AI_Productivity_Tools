@@ -6,7 +6,7 @@ Artificial Intelligence (AI) is rapidly transforming the way we work, communicat
 
 This workshop is part of the **Dendritic Institute**'s mission to advance AI and Data Science education through human-centered approaches. Designed for professionals, educators, researchers, and students alike, this session emphasizes **practical applications** and **ethical considerations** surrounding the use of generative AI technologies.
 
-## 1. What You'll Learn
+## 1. What You Will Learn
 
 Participants will explore AI tools across the following domains:
 
@@ -25,6 +25,9 @@ Participants will explore AI tools across the following domains:
 - **Meeting Transcription and Summarization**  
   Use tools like Otter.ai and Fireflies.ai to transcribe meetings, extract action items, and share summarized notes with your team.
 
+- **Personal Assistants**  
+  Use tools like aistudio.google.com to help you navigate through various tools and environments, working as a personal voice-assistant capable of interacting with the physical and digital worlds.
+  
 ![AI Productivity Tools - Visual Selection](AIProductivityTools.png)
 
 ## 2. Structure and Approach
