@@ -82,62 +82,7 @@ Fireflies is an AI notetaker that records, transcribes, and summarizes meetings 
 ### AI Studio
 Google AI Studio is a development platform for building with Gemini, Google’s multimodal AI models. It supports chat, code execution, file analysis, and video generation. Designed for both beginners and developers, AI Studio enables rapid prototyping and integration of AI into applications with a user-friendly interface. Access AI Studio here: [https://aistudio.google.com]
 
-
-
-
-No programming experience is required. The focus is on building your ability to extract business-oriented insights, visualize relationships, and tell impactful stories with data, both with and without AI. By the end of this course, you will be equipped to apply AI-augmented workflows to real-world data projects and contribute to a data-driven culture in any organization.
-
-## 1.1 Program Structure and Summary
-
-This training is structured into five classes, each building on the previous to provide a comprehensive journey from foundational concepts to a full AI-enhanced data analysis project:
-
-### Class 1: Introduction to Data Analysis, AI Tools, and Careers
-- Covers the basics of AI and AI-enhanced data analysis.
-- Introduces main AI tools (ChatGPT, Claude.ai, Perplexity).
-- Explores careers in data science, key terminologies, and principles of prompt engineering.
-- Discusses best practices in data analysis and the differences between standard and AI-based approaches.
-- Introduces the basics of prompt engineering.
-[Download the slide deck.](./DA2I_Class01_Introduction.pdf)
-
-### Class 2: Data Analysis Workflow and Descriptive Data Analysis
-- Focuses on the data analysis workflow, including data description and preparation.
-- Introduces descriptive data analysis (DDA), covering how to summarize and characterize data using statistical methods.
-- Begins to integrate AI tools for data preparation and analysis.
-[Download the slide deck.](./DA2I_Class02_DD_DDA.pdf)
-
-### Class 3: Data Visualization and Design Principles
-- Explores different types of data distributions, associations, proportions, and trends.
-- Introduces geospatial analysis and key design principles for effective data visualization.
-- Demonstrates how AI can enhance data visualization and support analysis.
-[Download the slide deck.](./DA2I_Class03_Dataviz.pdf)
-
-### Class 4: Data Storytelling and Dashboard Design
-- Focuses on crafting compelling data stories and designing impactful dashboards.
-- Includes case studies to apply storytelling techniques and dashboard best practices.
-- Emphasizes the use of AI tools to enhance storytelling and dashboard creation.
-[Download the slide deck.](./DA2I_Class04_Storytelling_Dashboard.pdf)
-
-### Class 5: Full Data Analysis Project with AI Integration
-- Culminates in a capstone project where participants apply the entire AI-augmented analysis workflow.
-- Covers project requirements, learning objectives, and integrates all skills learned throughout the course.
-- Encourages critical discussion on the limitations, ethics, and accuracy of AI-generated outputs.
-[Download the slide deck.](./DA2I_Class05_FinalClass.pdf)
-
-## 1.2 Datasets Summary
-
-The training uses a diverse set of datasets to illustrate practical data analysis and AI-augmented workflows. Here is a summary of the datasets featured in the examples:
-
-- **Car Evaluation Dataset**: Contains attributes such as buying price, maintenance cost, doors, seating capacity, trunk size, safety, and an overall acceptability class. Used for data description, tabular representation, and creating data dictionaries. [Download the Cars dataset.](./mpg.csv)
-- **Mammographic Masses Dataset**: Medical dataset with variables like BI-RADS assessment, patient age, mass shape, margin, density, and severity (benign or malignant). Used for handling missing values, sampling, and contingency analysis. [Download the Mammographic dataset.](./mammographic_masses_nominal.csv)
-- **Iris Dataset**: Classic dataset with sepal and petal measurements for three iris species. Demonstrates normalization and descriptive statistics. [Download the Iris dataset.](./Iris.csv)
-- **Forest Fires Dataset**: Contains data on forest fires in Portugal, including location, date, meteorological indices, temperature, humidity, wind, rain, and area burned. Used for distribution analysis, frequency tables, and association measures. [Download the Forest Fires dataset.](./forestfires.csv)
-- **Gapminder Dataset**: Features global development indicators such as GDP per capita, life expectancy, and population for multiple countries over time. Commonly used to demonstrate time series analysis, multi-dimensional visualization, and global trend exploration. [Download the Gapminder dataset.](./gapminder_data_graphs.csv)
-- **Superstore Sales Dataset**: Comprises transactional sales data from a retail superstore, including order details, customer demographics, product categories, sales, profit, and shipping information. Used to illustrate business analytics, dashboard creation, and data storytelling. [Download the Super Store Sales dataset.](./Superstore_Sales_Dataset_Original2.csv)
-
-These datasets provide a comprehensive foundation for exploring data preparation, descriptive analysis, visualization, and AI-driven insights throughout the training.
-
-
-## About the Author
+## About the Instructor
 
 Dr. Leandro Nunes de Castro <br>
 AI and Data Science Professor & Dendritic Program Director <br>
