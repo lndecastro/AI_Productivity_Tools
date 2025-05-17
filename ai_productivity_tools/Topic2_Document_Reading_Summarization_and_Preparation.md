@@ -56,7 +56,7 @@ Pick a document type or goal relevant to your profession, role, or interest:
 
 ### Step 2: Load and Summarize 
 
-Use a tool like ChatGPT, Claude, NotebookLM, or Perplexity to:
+Use a tool like ChatGPT/Gemini/Copilot/etc., Claude, NotebookLM, or Perplexity to:
 
 - Upload or paste your document
 - Ask the AI to generate:
@@ -68,14 +68,33 @@ Use a tool like ChatGPT, Claude, NotebookLM, or Perplexity to:
 
 **Example Prompts:**
 
+*Instructional Prompt*
+```
+Summarize the document provided below. Focus on identifying the key findings, supporting arguments, and any statistical evidence. Present the output as a concise executive summary of no more than 200 words.
+[UPLOAD FILE OR PASTE DOCUMENT]
+```
+
+*Role-Based Prompt*
+```
+Act as a paralegal in a law firm. Your task is to review the following legal documents and extract their main info for a legal analysis. Identify the parts and phrase them as high-level legal recommendations.
+[UPLOAD FILES]
+```
+
+*Zero-Shot Prompt*
 ```
 Summarize this research article in plain language and highlight the key findings.
+[UPLOAD PAPERS]
 ```
+
+*Few-Shot Prompt*
 ```
-Extract 5 key action items from this document.
-```
-```
-Turn this report into an executive summary.
+Here are two examples of how I summarize legal documents:
+
+1. "This document outlines a civil lawsuit where the plaintiff claims damages from a breach of contract. The court's decision supports the defendant, citing lack of evidence."
+2. "This case involves an environmental policy dispute, with both sides presenting arguments around zoning law. The judge ruled in favor of the municipality."
+
+Now, summarize this new legal brief in the same style:
+[UPLOAD FILES]
 ```
 
 ### Step 3: Draft or Prepare a New Document 
@@ -92,16 +111,18 @@ Pick a goal from below and ask the AI to help you create a draft:
 
 **Example Prompts:**
 
-*Social Media Post*
+*Social Media Post - Role-Based + Instructional Prompt*
 ```
-I need to create an engaging social media post for my company's new eco-friendly product line.
+Act as a senior social media strategist. I need to create an engaging social media post for my company's new eco-friendly product line.
 We're a mid-sized furniture company called GreenHome launching sustainable bamboo furniture (chairs, tables, and shelves) that uses no plastic and comes with a 10-year warranty.
 Our target audience is environmentally conscious homeowners ages 30-45 who value quality and sustainability.
 The post should highlight our sustainability commitment, mention our upcoming 15% launch discount valid for the next two weeks, and include a call-to-action to visit our website.
 Please keep the tone warm but professional, and limit the post to 150 words maximum for optimal social media engagement.
 ```
-*Job Application Letter*
+
+*Job Application Letter - Role-Based + Instructional Prompt*
 ```
+You are a seasoned career advisor who helps professionals craft persuasive cover letters.
 Please help me draft a compelling cover letter for a Marketing Manager position at TechInnovate, a software company specializing in AI solutions for healthcare.
 I have 6 years of experience in digital marketing, with the last 3 years focused on the tech sector at SmartSolutions Inc. where I increased lead generation by 40% and managed a team of 4 content creators.
 My relevant skills include campaign management, SEO optimization, team leadership, and data analytics.
@@ -109,13 +130,27 @@ I have a Bachelor's in Marketing and an MBA with a digital marketing concentrati
 I'm particularly drawn to this role because of TechInnovate's mission to make healthcare more accessible through technology, which aligns with my personal values.
 The letter should be professional but showcase my enthusiasm for their company culture of innovation.
 ```
-*Customer Survey*
+
+*Customer Survey - Chain-of-Thought Prompt*
 ```
-I need to create a customer satisfaction survey for my online bookstore, PageTurner, which sells both physical and e-books. We've been operating for 3 years and want to improve our customer experience.
-The survey should help us understand: customer demographics, purchasing habits, website usability, delivery satisfaction, and areas for improvement.
-Please include a mix of multiple-choice questions, rating scales (1-5), and 2-3 open-ended questions. The survey should take no more than 5 minutes to complete.
-Start with a brief introduction explaining the purpose and approximate time commitment, and end with a thank you message and offer of a 10% discount code for their next purchase as an incentive for completion.
-Use a friendly, approachable tone that reflects our brand personality.
+I need to create a customer satisfaction survey for my online bookstore, PageTurner, which sells both physical and e-books.
+
+Let’s approach this step by step:
+
+1. First, list the key goals of this survey. Focus on what insights we need to gain to improve the customer experience.
+
+2. Next, for each goal, suggest the best types of questions to ask (e.g., multiple choice, rating scale, open-ended), and briefly explain why.
+
+3. Then, draft the actual survey questions. Include a short introduction that explains the purpose and time commitment (~5 minutes), and design the survey to take no longer than that. Cover:
+   - Customer demographics
+   - Purchasing habits
+   - Website usability
+   - Delivery satisfaction
+   - Areas for improvement
+
+4. Include a friendly thank-you message at the end and offer a 10% discount code as a completion incentive.
+
+Keep the tone friendly and reflective of PageTurner’s approachable, book-loving brand.
 ```
 
 ### Step 4: Evaluate and Refine 
@@ -128,14 +163,22 @@ Use AI to:
 
 **Example Prompts:**
 
+*Instructional Prompt*
 ```
-Make this more concise and formal.
+Review this draft for tone, clarity, and formatting. Improve the structure and ensure it sounds professional and aligned with an academic style.
+[PASTE DRAFT]
 ```
+
+*Role-Based Prompt*
 ```
-Rephrase this for a general audience.
+Act as a professional translator. Translate the following business proposal into Portuguese, using terminology appropriate for an investment audience in Brazil.
+[PASTE PROPOSAL]
 ```
+
+*Instructional Prompt*
 ```
 Convert this into bullet points suitable for a slide.
+[PASTE TEXT]
 ```
 
 **Bonus Ideas (if time allows):**
@@ -143,6 +186,20 @@ Convert this into bullet points suitable for a slide.
 - Generate a podcast script from your source (use NotebookLM)
 - Ask for citations or source links (use Perplexity or ChatGPT with web access)
 - Create an interactive FAQ for training
+
+*Few-Shot + Role Prompt*
+```
+You are a podcast host for a science communication show. Based on this article, generate a 3-minute script introducing the topic to the students. Use a conversational tone.
+[PASTE ARTICLE]
+```
+
+*Chain-of-Thought Prompt*
+```
+Step 1: Identify the top 5 most common questions a reader might ask about this content.  
+Step 2: Write clear and concise answers to each one using the original text.  
+Step 3: Output the result in a simple Q&A format.
+[UPLOAD OR PASTE DOCUMENT]
+```
 
 ## 2.5 Wrap-Up Reflection 
 
