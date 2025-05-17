@@ -121,3 +121,7 @@ These files correspond to scientific papers and a book chapter published by Dr. 
 
 **Image of a Robot Interviewing a Human**
 [Image download](./data/RobotInterview.jpg)
+
+**Files to be Used with Otter.ai**
+[Zip file](./data/Otter_Files.zip)
+[MD File](./data/Otter_File.md)
