@@ -103,5 +103,20 @@ Google AI Studio is a development platform for building with Gemini, Google’s 
 **CourtListener (RECAP Archive)**
 A massive open archive of U.S. court decisions and dockets. Website: [https://www.courtlistener.com] <br>
 Format: Opinions, case law, filings (HTML, JSON, bulk download) <br>
-[Dataset 01](./data/Text_Legal01.pdf)
+[Dataset 01](./data/Text_Legal01.pdf) <br>
+[Dataset 02](./data/Text_Legal02.pdf) <br>
+[Dataset 03](./data/Text_Legal03.pdf) <br>
+[Dataset 04](./data/Text_Legal04.pdf) <br>
+
+**Movie Reviews - IMDB Dataset**
+The IMDB (Internet Movie Database) dataset is a widely used benchmark for sentiment analysis and text classification tasks. It contains movie reviews from IMDB users labeled as positive or negative, making it ideal for binary sentiment classification. For more dataset information, please go through the following link: [http://ai.stanford.edu/~amaas/data/sentiment/]. <br>
+[IMDB Dataset](./data/IMDBDataset_Short.csv). 
+
+**Scientific Papers**
+These files correspond to scientific papers and a book chapter published by Dr. Leandro de Castro over the past few years.
+[Paper 01](./data/Paper01.pdf) <br>
+[Paper 02](./data/Paper02.pdf) <br>
+[Paper 03](./data/Paper03.pdf) <br>
+[Paper 04](./data/Paper04.pdf) <br>
+[Paper 05](./data/Paper05.pdf) <br>
 
