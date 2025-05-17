@@ -117,4 +117,4 @@ These files correspond to scientific papers and a book chapter published by Dr. 
 [Paper 05](./data/Paper05.pdf) <br>
 
 **Microsoft Financial Sample Excel Workbook**
-[Spreadsheet](./data/FinancialSample.xlsx)
+[Spreadsheet](./data/FinancialSample.xlsx) Available at: [https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download]
