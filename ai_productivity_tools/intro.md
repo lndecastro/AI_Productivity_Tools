@@ -106,7 +106,7 @@ Format: Opinions, case law, filings (HTML, JSON, bulk download) <br>
 
 **Movie Reviews - IMDB Dataset**
 The IMDB (Internet Movie Database) dataset is a widely used benchmark for sentiment analysis and text classification tasks. It contains movie reviews from IMDB users labeled as positive or negative, making it ideal for binary sentiment classification. For more dataset information, please go through the following link: [http://ai.stanford.edu/~amaas/data/sentiment/]. <br>
-[IMDB Dataset](./data/IMDBDataset_Short.csv). 
+[IMDB Dataset Spreadsheet](./data/IMDBDataset_Short.csv). 
 
 **Scientific Papers**
 These files correspond to scientific papers and a book chapter published by Dr. Leandro de Castro over the past few years.
@@ -116,3 +116,5 @@ These files correspond to scientific papers and a book chapter published by Dr. 
 [Paper 04](./data/Paper04.pdf) <br>
 [Paper 05](./data/Paper05.pdf) <br>
 
+**Microsoft Financial Sample Excel Workbook**
+[Spreadsheet](./data/FinancialSample.xlsx)
