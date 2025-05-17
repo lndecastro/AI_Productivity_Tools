@@ -1,5 +1,17 @@
 # Welcome to the *AI Productivity Tools* Workshop
 
+## About the Instructor and Teaching Assistants
+
+Dr. Leandro Nunes de Castro (AI and Data Science Professor & Dendritic Program Director) <br>
+Jeremy Martin (BS Software Engineering) <br>
+John Peller (BS Software Engineering) <br>
+Marcelo Amorim (BS Software Engineering) <br>
+Timothy Meinert (BS Software Engineering)
+
+Dendritic: A Human-Centered Artificial Intelligence and Data Science Institute <br>
+U.A. Whitaker College of Engineering<br>
+Florida Gulf Coast University
+
 ## Empowering Your Workflow with AI
 
 Artificial Intelligence (AI) is rapidly transforming the way we work, communicate, and manage information. In this hands-on workshop, we explore how AI-powered tools can be seamlessly integrated into everyday professional tasks to significantly boost productivity, creativity, and decision-making.
@@ -64,6 +76,13 @@ Meta AI is Meta’s suite of generative AI tools embedded across Facebook, Insta
 ### Copilot
 Copilot is Microsoft’s AI assistant integrated across tools like Word, Excel, PowerPoint, Outlook, and Teams. It leverages large language models to help users draft content, analyze data, summarize meetings, and automate workflows. In Excel, it can generate formulas, create charts, and explain data trends. In Word and PowerPoint, it assists with writing, editing, and designing presentations. Copilot is deeply embedded in Microsoft 365, enhancing productivity through natural language commands. Access Copilot here: [https://copilot.microsoft.com]
 
+### Gemini
+Gemini is Google’s family of multimodal AI models integrated into Google Workspace and available via the Gemini web app. It assists users in drafting, summarizing, brainstorming, analyzing documents, and generating code. Within Docs, Gmail, and Sheets, Gemini enhances productivity by offering smart suggestions, data insights, and content generation. It also supports image understanding and code interpretation through its advanced model versions. Access Gemini here: [https://gemini.google.com]
+
+### NotebookLM
+NotebookLM is a personalized AI research assistant from Google designed to help users work with their own documents. It can summarize large texts, generate FAQs, suggest outlines, timelines, and even podcast scripts. Unlike general-purpose chatbots, NotebookLM focuses on grounded responses based solely on the sources provided by the user, making it ideal for academic, legal, and research-based tasks.
+Access NotebookLM here: [https://notebooklm.google]
+
 ### Napkin
 Napkin is a visual storytelling AI tool that transforms plain text into professional diagrams, infographics, and flowcharts. It is ideal for business presentations, educational content, and social media visuals. Users can customize visuals with icons, connectors, and themes, and export them in formats like PNG, PDF, and SVG. Access Napkin here: [https://www.napkin.ai]
 
@@ -76,16 +95,6 @@ MailMaestro is an AI email assistant for Microsoft Outlook and Gmail that helps 
 ### Otter.ai
 Otter.ai is an AI meeting assistant that transcribes, summarizes, and analyzes meetings in real time. It integrates with Zoom, Google Meet, and Microsoft Teams, and provides searchable transcripts, action items, and summaries. Otter is widely used in business, education, and media for productivity and collaboration. Access Otter here: [https://otter.ai]
 
-### Fireflies
-Fireflies is an AI notetaker that records, transcribes, and summarizes meetings across platforms like Zoom, Teams, and Google Meet. It offers searchable transcripts, action item tracking, and CRM integration. Fireflies also supports collaboration through comments, highlights, and sharing across tools like Slack and Notion. Access Fireflies here: [https://fireflies.ai]
-
 ### AI Studio
 Google AI Studio is a development platform for building with Gemini, Google’s multimodal AI models. It supports chat, code execution, file analysis, and video generation. Designed for both beginners and developers, AI Studio enables rapid prototyping and integration of AI into applications with a user-friendly interface. Access AI Studio here: [https://aistudio.google.com]
 
-## About the Instructor
-
-Dr. Leandro Nunes de Castro <br>
-AI and Data Science Professor & Dendritic Program Director <br>
-Dendritic: A Human-Centered Artificial Intelligence and Data Science Institute <br>
-U.A. Whitaker College of Engineering<br>
-Florida Gulf Coast University
