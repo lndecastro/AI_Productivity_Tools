@@ -1,4 +1,8 @@
-# Welcome to the *AI Productivity Tools* Workshop
+# Welcome to the "AI Productivity Tools" Workshop
+
+Artificial Intelligence (AI) is rapidly transforming the way we work, communicate, and manage information. In this hands-on workshop, we explore how AI-powered tools can be seamlessly integrated into everyday professional tasks to significantly boost productivity, creativity, and decision-making.
+
+This workshop is part of the **Dendritic Institute**'s mission to advance AI and Data Science education through human-centered approaches. Designed for professionals, educators, researchers, and students alike, this session emphasizes **practical applications** and **ethical considerations** surrounding the use of generative AI technologies.
 
 ## 1. About the Instructor and Teaching Assistants
 
@@ -12,13 +16,7 @@ Dendritic: A Human-Centered Artificial Intelligence and Data Science Institute <
 U.A. Whitaker College of Engineering<br>
 Florida Gulf Coast University
 
-## 2. Empowering Your Workflow with AI
-
-Artificial Intelligence (AI) is rapidly transforming the way we work, communicate, and manage information. In this hands-on workshop, we explore how AI-powered tools can be seamlessly integrated into everyday professional tasks to significantly boost productivity, creativity, and decision-making.
-
-This workshop is part of the **Dendritic Institute**'s mission to advance AI and Data Science education through human-centered approaches. Designed for professionals, educators, researchers, and students alike, this session emphasizes **practical applications** and **ethical considerations** surrounding the use of generative AI technologies.
-
-## 3. What You Will Learn
+## 2. What You Will Learn
 
 Participants will explore AI tools across the following domains:
 
@@ -40,7 +38,7 @@ Participants will explore AI tools across the following domains:
 - **Personal Assistants**  
   Use tools like aistudio.google.com to help you navigate through various tools and environments, working as a personal voice-assistant capable of interacting with the physical and digital worlds.
 
-## 4. Structure and Approach
+## 3. Structure and Approach
 
 Each session is structured around a short introduction, hands-on activity, and a reflection period. You will be encouraged to:
 
@@ -51,7 +49,7 @@ Each session is structured around a short introduction, hands-on activity, and a
 
 At the end of the workshop, participants will complete a final project applying AI tools to a task relevant to their field or organization.
 
-## 5. GenAI Tools to be Studied
+## 4. GenAI Tools to be Studied
 
 ### ChatGPT
 ChatGPT is a versatile AI language model developed by OpenAI, capable of interpreting natural language, performing various statistical analyses, coding in Python, and generating data visualizations such as bar charts, pie charts, scatter plots, and histograms. It supports data uploads in formats like CSV, XLSX, PDF, and JSON (up to 50MB) and can integrate with cloud storage like Google Drive and OneDrive. ChatGPT excels in broad AI capabilities including data analysis, summarization, and storytelling. It requires web browsing for real-time data updates.
@@ -96,9 +94,7 @@ Otter.ai is an AI meeting assistant that transcribes, summarizes, and analyzes m
 ### AI Studio
 Google AI Studio is a development platform for building with Gemini, Google’s multimodal AI models. It supports chat, code execution, file analysis, and video generation. Designed for both beginners and developers, AI Studio enables rapid prototyping and integration of AI into applications with a user-friendly interface. Access AI Studio here: [https://aistudio.google.com]
 
-## 6. Datasets Summary
-
-### 6.1 Legal Domain
+## 5. Datasets Summary
 
 **CourtListener (RECAP Archive)**
 A massive open archive of U.S. court decisions and dockets. Website: [https://www.courtlistener.com] <br>
