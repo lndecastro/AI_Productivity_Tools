@@ -1,4 +1,4 @@
-# 1. Introduction to AI for Productivity
+# 1. Introduction to AI for Productivity and Prompt Engineering
 
 AI productivity tools are applications powered by artificial intelligence that help automate, enhance, or accelerate everyday tasks. These tools include generative models for writing and summarizing documents, image generators for creating visuals, smart assistants for managing emails and meetings, personal assistants, and integrated platforms like Microsoft Copilot or Google Workspace AI. They aim to reduce manual effort, improve quality and consistency, and allow users to focus on higher-level thinking and decision-making. From drafting reports and organizing emails to summarizing documents or generating presentations, AI productivity tools are transforming how professionals work across industries.
 
