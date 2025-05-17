@@ -1,7 +1,7 @@
-## 2. Document Reading, Summarization, and Preparation (40 minutes)
+# 2. Document Reading, Summarization, and Preparation 
 In the age of information overload, professionals across all fields face the challenge of efficiently processing and acting on large volumes of text. This session introduces practical strategies for leveraging AI tools to read, summarize, and prepare documents with speed and precision. Whether you're reviewing a lengthy report, drafting a business proposal, or turning complex research into accessible insights, generative AI can serve as a powerful assistant. Through hands-on exercises and real-world examples, participants will learn how to transform dense content into actionable knowledge using leading tools like ChatGPT, Perplexity AI, and NotebookLM.
 
-### 2.1 Objective
+## 2.1 Objective
 
 By the end of this session, participants will be able to:
 
@@ -9,13 +9,13 @@ By the end of this session, participants will be able to:
 - Apply generative AI to their specific work or study context (e.g., education, business, research, law, healthcare, etc.).
 - Understand the strengths and limitations of different AI tools for document productivity.
 
-### 2.2 Tools
+## 2.2 Tools
 
 - **ChatGPT / Claude.ai / Copilot (MS Word) / Gemini / Meta.ai / Grok.com** – for summarizing and drafting documents.
 - **Perplexity AI** – for research assistantship, literature review, research paper analysis, fact-checking, and information synthesis.
 - **NotebookLM** – focused on your own sources and capable of summarizing, creating FAQs and study guides, developing timelines, and creating podcasts.
 
-### 2.3 Use Cases
+## 2.3 Use Cases
 
 **Reading and summarizing long reports or research articles:**
 
@@ -39,9 +39,9 @@ By the end of this session, participants will be able to:
 - Presentations  
 - Customer surveys
 
-### 2.4 Step-by-Step Guidelines
+## 2.4 Step-by-Step Guidelines
 
-#### Step 1: Choose Your Context (5 minutes)
+### Step 1: Choose Your Context 
 
 Pick a document type or goal relevant to your profession, role, or interest:
 
@@ -54,7 +54,7 @@ Pick a document type or goal relevant to your profession, role, or interest:
 
 *Don’t have your own document?* Use a pre-provided sample from the workshop folder or search a public domain text using Perplexity or ChatGPT.
 
-#### Step 2: Load and Summarize (10–15 minutes)
+### Step 2: Load and Summarize 
 
 Use a tool like ChatGPT, Claude, NotebookLM, or Perplexity to:
 
@@ -78,7 +78,7 @@ Extract 5 key action items from this document.
 Turn this report into an executive summary.
 ```
 
-#### Step 3: Draft or Prepare a New Document (15 minutes)
+### Step 3: Draft or Prepare a New Document 
 
 Pick a goal from below and ask the AI to help you create a draft:
 
@@ -118,7 +118,7 @@ Start with a brief introduction explaining the purpose and approximate time comm
 Use a friendly, approachable tone that reflects our brand personality.
 ```
 
-#### Step 4: Evaluate and Refine (5–10 minutes)
+### Step 4: Evaluate and Refine 
 
 Use AI to:
 
@@ -144,7 +144,7 @@ Convert this into bullet points suitable for a slide.
 - Ask for citations or source links (use Perplexity or ChatGPT with web access)
 - Create an interactive FAQ for training
 
-### 2.5 Wrap-Up Reflection (5 minutes)
+## 2.5 Wrap-Up Reflection 
 
 - Start with a simple request, then iterate with more specific follow-up prompts
 - Compare outputs from different AI tools for the same task
