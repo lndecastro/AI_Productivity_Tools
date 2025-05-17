@@ -94,7 +94,7 @@ Otter.ai is an AI meeting assistant that transcribes, summarizes, and analyzes m
 ### AI Studio
 Google AI Studio is a development platform for building with Gemini, Google’s multimodal AI models. It supports chat, code execution, file analysis, and video generation. Designed for both beginners and developers, AI Studio enables rapid prototyping and integration of AI into applications with a user-friendly interface. Access AI Studio here: [https://aistudio.google.com]
 
-## 5. Datasets Summary
+## 5. Data Summary
 
 **CourtListener (RECAP Archive)**
 A massive open archive of U.S. court decisions and dockets. Website: [https://www.courtlistener.com] <br>
@@ -118,3 +118,6 @@ These files correspond to scientific papers and a book chapter published by Dr. 
 
 **Microsoft Financial Sample Excel Workbook**
 [Spreadsheet](./data/FinancialSample.xlsx) Available at: [https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download]
+
+**Image of a Robot Interviewing a Human**
+[Image download](./data/RobotInterview.jpg)
