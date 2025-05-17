@@ -111,7 +111,7 @@ Pick a goal from below and ask the AI to help you create a draft:
 
 **Example Prompts:**
 
-*Social Media Post - Role-Based + Instructional Prompt*
+*Social Media Post (Role-Based + Instructional Prompt)*
 ```
 Act as a senior social media strategist. I need to create an engaging social media post for my company's new eco-friendly product line.
 We're a mid-sized furniture company called GreenHome launching sustainable bamboo furniture (chairs, tables, and shelves) that uses no plastic and comes with a 10-year warranty.
@@ -120,7 +120,7 @@ The post should highlight our sustainability commitment, mention our upcoming 15
 Please keep the tone warm but professional, and limit the post to 150 words maximum for optimal social media engagement.
 ```
 
-*Job Application Letter - Role-Based + Instructional Prompt*
+*Job Application Letter (Role-Based + Instructional Prompt)*
 ```
 You are a seasoned career advisor who helps professionals craft persuasive cover letters.
 Please help me draft a compelling cover letter for a Marketing Manager position at TechInnovate, a software company specializing in AI solutions for healthcare.
@@ -131,7 +131,7 @@ I'm particularly drawn to this role because of TechInnovate's mission to make he
 The letter should be professional but showcase my enthusiasm for their company culture of innovation.
 ```
 
-*Customer Survey - Chain-of-Thought Prompt*
+*Customer Survey (Chain-of-Thought Prompt)*
 ```
 I need to create a customer satisfaction survey for my online bookstore, PageTurner, which sells both physical and e-books.
 
