@@ -111,7 +111,7 @@ Create a 10-slide outline that includes:
 Use persuasive, VC-friendly language and keep slides data-focused.
 ```
 
-*Chain-of-Top Prompt*
+*Chain-of-Thought Prompt*
 ```
 Let’s build this slide deck step-by-step:
 1. Identify the audience and goal: A high school science class learning about photosynthesis.
@@ -191,7 +191,7 @@ Include persuasive messaging, market data, and a closing ask slide.
 [PASTE PAPER]
 ```
 
-## 4.5 Wrap-Up Reflection (2 minutes)
+## 4.5 Wrap-Up Reflection
 
 - What presentation context did you work on?  
 - What tool felt most useful or impressive?  
