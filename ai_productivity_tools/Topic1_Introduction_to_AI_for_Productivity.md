@@ -1,12 +1,14 @@
-# 1. Introduction to AI for Productivity (30–40 minutes)
+# 1. Introduction to AI for Productivity
 
-AI productivity tools are applications powered by artificial intelligence that help automate, enhance, or accelerate everyday tasks. These tools include generative models like ChatGPT for writing and summarizing, image generators for creating visuals, smart assistants for managing emails and meetings, and integrated platforms like Microsoft Copilot or Google Workspace AI. They aim to reduce manual effort, improve quality and consistency, and allow users to focus on higher-level thinking and decision-making. From drafting reports and organizing emails to summarizing documents or generating presentations, AI productivity tools are transforming how professionals work across industries.
+AI productivity tools are applications powered by artificial intelligence that help automate, enhance, or accelerate everyday tasks. These tools include generative models for writing and summarizing documents, image generators for creating visuals, smart assistants for managing emails and meetings, personal assistants, and integrated platforms like Microsoft Copilot or Google Workspace AI. They aim to reduce manual effort, improve quality and consistency, and allow users to focus on higher-level thinking and decision-making. From drafting reports and organizing emails to summarizing documents or generating presentations, AI productivity tools are transforming how professionals work across industries.
 
 ## 1.2 Welcome and Workshop Overview
 
 - Brief introduction to the workshop’s purpose and goals
 - Overview of the structure: hands-on, use-case driven, prompt-based learning
 - Icebreaker: "How are you currently using AI?"
+
+![AI Productivity Tools - Visual Selection](AI_Productivity_Toolsv2.png)
 
 ## 1.3 What AI Can Do for You
 
