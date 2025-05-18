@@ -123,5 +123,7 @@ These files correspond to scientific papers and a book chapter published by Dr. 
 [Image download](./data/RobotInterview.jpg)
 
 **Files to be Used with Otter.ai**
-[Zip file](./data/Otter_Files.zip)
-[MD File](./data/Otter_File.md)
+[Audio file](./data/Apple2024Form.wav)
+[Scenario 1](./data/LegalDepositionTranscript.pdf)
+[Scenario 2](./data/SalesDramaScenario.pdf)
+[Scenario 3](./data/VoiceAssistantScenario.pdf)
