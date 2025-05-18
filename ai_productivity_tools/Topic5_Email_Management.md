@@ -60,6 +60,7 @@ Ask the AI to help draft a polite, professional, or persuasive reply using the "
 - The goal of the response (e.g., approve, schedule, clarify, escalate)
 
 **Example Prompts**
+
 *Instructional Prompt*
 ```
 Write a professional reply confirming the meeting and requesting an agenda.
