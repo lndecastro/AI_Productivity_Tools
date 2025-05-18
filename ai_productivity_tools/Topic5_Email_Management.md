@@ -12,18 +12,18 @@ By the end of this topic, participants will:
 
 ## 5.2 Tools
 
-- **Gmail Smart Compose**
-- **Outlook Copilot**
+- **MailMaestro AI Email Assistant Plugin**
+- **Gmail**
 
 ## 5.3 Use Cases
 
 - Summarizing long email threads  
-- Drafting personalized responses  
-- Auto-categorizing and prioritizing emails  
+- Drafting personalized responses
+- Applying prompt commands to generate specific mail replies  
 
 ## 5.4 Step-by-Step Guidelines
 
-### Step 1: Define Your Email Context (2 minutes)
+### Step 1: Define Your Email Context
 
 Choose an email scenario that matches your day-to-day work:
 
@@ -34,65 +34,53 @@ Choose an email scenario that matches your day-to-day work:
 
 *No email to work with?* Use a sample thread provided or imagine a common scenario from your role.
 
-### Step 2: Summarize an Email Thread (4–5 minutes)
+### Step 2: Summarize an Email Thread
 
-Use Outlook Copilot or Gmail’s Smart Summary features (or simulate with ChatGPT) to:
-- Paste or summarize a long email conversation.
-- Ask the AI to extract key points, next steps, or action items.
+Use MailMaestro AI Assistant Interface to:
+- Instantly summarize the selected email topic or thread in a few sentences.
+- Use the “Reply” feature. On “Instruct the AI to write your email box”, try writing some simple instructions and watch the performance of the tool.
 
-*Example Prompts:*
-```text
-Summarize this email chain into a few bullet points for a quick update.
+**Example Prompts**
+
+*Instructional Prompts*
 ```
-```text
-What decisions were made in this email thread?
+Accept this invitation but make it funny
 ```
-```text
-List the main concerns raised and the sender's tone.
+```
+Ask for more details in a polite way
+```
+```
+Raise concerns about this approach without being rude
 ```
 
-### Step 3: Draft a Personalized Email Response (5–7 minutes)
+### Step 3: Draft a Personalized Email Response
 
-Ask the AI to help draft a polite, professional, or persuasive reply. Include:
+Ask the AI to help draft a polite, professional, or persuasive reply using the "Instruct the AI to write your email" box under "Reply". Include:
 - Your intended tone (e.g., casual, formal, assertive)
 - The goal of the response (e.g., approve, schedule, clarify, escalate)
 
-*Example Prompts:*
-```text
+**Example Prompts**
+*Instructional Prompt*
+```
 Write a professional reply confirming the meeting and requesting an agenda.
 ```
-```text
+```
 Draft a polite follow-up email after no response to a proposal.
 ```
-```text
+```
+Accept this invitation but make it funny
+```
+```
 Respond to this customer complaint with empathy and a solution.
 ```
 
-### Step 4: Auto-Organize and Prioritize (3–5 minutes)
-
-Explore or simulate how tools like Outlook Copilot and Gmail Categories can:
-- Filter by urgency (e.g., “important,” “follow up,” “not urgent”)
-- Auto-categorize messages (promotions, updates, social, etc.)
-- Flag or archive based on keywords, sender, or thread behavior
-
-*Example Prompts:*
-```text
-Highlight emails that require a response today.
-```
-```text
-Group emails from students requesting deadline extensions.
-```
-```text
-Create rules to automatically sort team updates into a folder.
-```
-
-**Bonus Ideas (if time allows):**
+## 5.5 Bonus Ideas**
 - Ask AI to rewrite emails in a different tone (e.g., more concise, more diplomatic)  
 - Translate your email into another language for global communication  
 - Create email templates for recurring tasks (meeting confirmations, feedback requests, etc.)
 
-## 5.5 Wrap-Up Reflection (2 minutes)
+## 5.6 Wrap-Up Reflection
 
 - What was your main email productivity blocker?  
-- Which AI feature or tool was most helpful?  
+- Which AI feature was most helpful?  
 - Where can you integrate this into your daily workflow?
