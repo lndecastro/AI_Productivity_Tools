@@ -181,7 +181,7 @@ Convert this into bullet points suitable for a slide.
 [PASTE TEXT]
 ```
 
-**Bonus Ideas (if time allows):**
+## 2.5 Bonus Ideas (if time allows):
 
 - Generate a podcast script from your source (use NotebookLM)
 - Ask for citations or source links (use Perplexity or ChatGPT with web access)
@@ -201,7 +201,7 @@ Step 3: Output the result in a simple Q&A format.
 [UPLOAD OR PASTE DOCUMENT]
 ```
 
-## 2.5 Wrap-Up Reflection 
+## 2.6 Wrap-Up Reflection 
 
 - Start with a simple request, then iterate with more specific follow-up prompts
 - Compare outputs from different AI tools for the same task
