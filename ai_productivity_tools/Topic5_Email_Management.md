@@ -1,4 +1,4 @@
-# 5. Email Management (20 minutes)
+# 5. Email Management
 
 Email remains one of the most time-consuming aspects of professional communication, often filled with repetitive tasks, long threads, and a constant demand for timely responses. In this topic, participants will explore how AI-powered tools can help streamline email workflows, summarizing conversations, drafting replies, and prioritizing messages with minimal effort. Whether you are managing a busy inbox, communicating with clients, or organizing internal updates, AI can serve as a powerful assistant to reduce friction and boost productivity.
 
