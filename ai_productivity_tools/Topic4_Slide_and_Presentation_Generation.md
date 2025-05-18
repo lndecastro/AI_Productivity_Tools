@@ -171,7 +171,7 @@ Suggest improvements to the structure and tone of this deck for an academic audi
 [PASTE OUTLINE OR SLIDE LIST]
 ```
 
-**Bonus Ideas (if time allows):**
+## 4.6 Bonus Ideas (if time allows)
 - Use AI to generate a speaker script or notes for each slide  
 - Ask for a handout version of the slides  
 - Export to PDF or link to a live presentation  
@@ -191,7 +191,7 @@ Include persuasive messaging, market data, and a closing ask slide.
 [PASTE PAPER]
 ```
 
-## 4.5 Wrap-Up Reflection
+## 4.7 Wrap-Up Reflection
 
 - What presentation context did you work on?  
 - What tool felt most useful or impressive?  
