@@ -99,7 +99,7 @@ Google AI Studio is a development platform for building with Gemini, Google’s 
 
 ## 5. Data Summary
 
-**CourtListener (RECAP Archive)**
+**CourtListener (RECAP Archive)** <br>
 A massive open archive of U.S. court decisions and dockets. Website: [https://www.courtlistener.com] <br>
 Format: Opinions, case law, filings (HTML, JSON, bulk download) <br>
 [Dataset 01](./data/Text_Legal01.pdf) <br>
@@ -107,11 +107,11 @@ Format: Opinions, case law, filings (HTML, JSON, bulk download) <br>
 [Dataset 03](./data/Text_Legal03.pdf) <br>
 [Dataset 04](./data/Text_Legal04.pdf) <br>
 
-**Movie Reviews - IMDB Dataset**
+**Movie Reviews - IMDB Dataset** <br>
 The IMDB (Internet Movie Database) dataset is a widely used benchmark for sentiment analysis and text classification tasks. It contains movie reviews from IMDB users labeled as positive or negative, making it ideal for binary sentiment classification. For more dataset information, please go through the following link: [http://ai.stanford.edu/~amaas/data/sentiment/]. <br>
 [IMDB Dataset Spreadsheet](./data/IMDBDataset_Short.csv). 
 
-**Scientific Papers**
+**Scientific Papers** <br>
 These files correspond to scientific papers and a book chapter published by Dr. Leandro de Castro over the past few years.
 [Paper 01](./data/Paper01.pdf) <br>
 [Paper 02](./data/Paper02.pdf) <br>
@@ -119,14 +119,14 @@ These files correspond to scientific papers and a book chapter published by Dr. 
 [Paper 04](./data/Paper04.pdf) <br>
 [Paper 05](./data/Paper05.pdf) <br>
 
-**Microsoft Financial Sample Excel Workbook**
-[Spreadsheet](./data/FinancialSample.xlsx) Available at: [https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download]
+**Microsoft Financial Sample Excel Workbook** <br>
+[Spreadsheet download](./data/FinancialSample.xlsx) Available at: [https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download]
 
-**Image of a Robot Interviewing a Human**
+**Image of a Robot Interviewing a Human** <br>
 [Image download](./data/RobotInterview.jpg)
 
-**Files to be Used with Otter.ai**
-[Audio file](./data/Apple2024Form.wav)
-[Scenario 1](./data/LegalDepositionTranscript.pdf)
-[Scenario 2](./data/SalesDramaScenario.pdf)
-[Scenario 3](./data/VoiceAssistantScenario.pdf)
+**Files to be Used with Otter.ai** <br>
+[Audio file download](./data/Apple2024Form.wav)
+[Scenario 1 download](./data/LegalDepositionTranscript.pdf)
+[Scenario 2 download](./data/SalesDramaScenario.pdf)
+[Scenario 3 download](./data/VoiceAssistantScenario.pdf)
