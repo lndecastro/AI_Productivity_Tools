@@ -20,22 +20,25 @@ Florida Gulf Coast University
 
 Participants will explore AI tools across the following domains:
 
-- **Document Summarization and Preparation**  
+**1. Introduction to Prompt Engineering**  
+  Learn the fundamentals of prompt engineering, including how to structure effective prompts and how to apply different prompt types to guide AI tools toward more accurate and useful results.
+
+**2. Document Summarization and Preparation**  
   Learn how to summarize texts, extract key insights, and generate professional-quality documents using tools like ChatGPT, Claude.ai, and Perplexity AI.
 
-- **Image and Diagram Generation**  
+**3. Image and Diagram Generation**  
   Generate high-quality visuals, SmartArt, and concept diagrams from text or bullet lists with tools like ChatGPT-4o, Meta.ai, and Napkin.ai.
 
-- **Slide and Presentation Creation**  
+**4. Slide and Presentation Creation**  
   Automatically generate engaging, professional slides from existing text or documents using Gamma.app and Microsoft Copilot.
 
-- **Email Management and Communication**  
+**5. Email Management and Communication**  
   Streamline your inbox with smart summaries, auto-replies, and personalized responses using AI tools.
 
-- **Meeting Transcription and Summarization**  
+**6. Meeting Transcription and Summarization**  
   Use tools like Otter.ai and Fireflies.ai to transcribe meetings, extract action items, and share summarized notes with your team.
 
-- **Personal Assistants**  
+**7. Personal Assistants**  
   Use tools like aistudio.google.com to help you navigate through various tools and environments, working as a personal voice-assistant capable of interacting with the physical and digital worlds.
 
 ## 3. Structure and Approach
