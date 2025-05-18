@@ -53,16 +53,17 @@ I am going to open a website I am unfamiliar with. As I explore, please explain 
 - How to use AI to co-pilot navigation tasks
 - Prompt strategies for incremental guidance (e.g., step-by-step help)
 
-## 7.4 Wrap-Up and Reflection
-
-- How does AI change your interaction with the physical or digital workspace?
-- What new applications can you envision for Stream-enabled assistants in your work?
-- What were the limits or surprises in the AI’s responses?
-
-## Suggested Activities
+## 7.4 Suggested Activities
 
 - **Pair work**: One student guides the AI using Stream while the other evaluates the AI's accuracy and helpfulness
 - **Prompt tuning challenge**: Refine a prompt to get clearer or more insightful observations
 - **Use-case design**: Students brainstorm how Stream could be applied in their discipline (e.g., teaching, design, health, research)
 
 > *Stream opens the door to contextual AI that sees what you see. The real skill is in shaping what it should do with what it sees.*
+
+## 7.5 Wrap-Up and Reflection
+
+- How does AI change your interaction with the physical or digital workspace?
+- What new applications can you envision for Stream-enabled assistants in your work?
+- What were the limits or surprises in the AI’s responses?
+
