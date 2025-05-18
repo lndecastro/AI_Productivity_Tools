@@ -18,20 +18,20 @@ AI productivity tools are applications powered by artificial intelligence that h
 
 ## 1.4 Prompt Engineering Basics
 
-### 🎯 Learning Objectives
+### Learning Objectives
 - Understand the purpose and scope of prompt engineering.
 - Identify the components that make up an effective prompt.
 - Identify and apply different types of prompt design patterns.
 - Compare how prompt structures influence AI outputs.
 - Practice prompt improvement through iteration.
 
-### 📚 What is Prompt Engineering?
+### What is Prompt Engineering?
 
 Prompt engineering is the practice of crafting effective inputs (prompts) for large language models (LLMs) to produce accurate, relevant, and useful outputs.
 
 Unlike traditional programming, where you write rigid code, prompt engineering is about **communicating naturally** with an AI system — and doing so **strategically**.
 
-### 🔍 Anatomy of a Prompt
+### Anatomy of a Prompt
 
 A good prompt typically includes:
 
@@ -44,13 +44,13 @@ A good prompt typically includes:
 4. **Output Format** (optional): Desired structure or style.
    - _e.g., "Respond in JSON format with sentiment and category."_
 
-### 💡 Why Prompt Engineering Matters
+### Why Prompt Engineering Matters
 
 - It **boosts model performance** without changing the model itself.
 - It helps tailor responses to specific **tasks and audiences**.
 - It allows you to guide the model toward **more reliable, interpretable results**.
 
-### 🔧 Example Prompt
+### Example Prompt
 ```
 You are a scientific editor. Summarize the text below into 3 bullet points for a general audience.
 
@@ -58,7 +58,7 @@ Text:
 Prompt engineering is the practice of crafting effective inputs (prompts) to guide generative AI models like ChatGPT, Claude, or Gemini toward producing accurate, relevant, and useful outputs. It involves understanding how AI interprets language and strategically structuring prompts to achieve specific goals, whether it is summarizing text, generating code, analyzing data, or creating content. Good prompt engineering can significantly enhance the quality of AI responses, making it a critical skill for maximizing productivity and creativity with AI tools.
 ```
 
-### 🧠 Exercise 1: Deconstruct This Prompt
+### Exercise 1: Deconstruct This Prompt
 
 Given the prompt below, identify its components:
 ```
@@ -68,11 +68,11 @@ Message:
 I was evicted without notice on June 3rd even though I paid rent until July...
 ```
 
-### 🧠 Why Prompt Patterns Matter
+### Why Prompt Patterns Matter
 
 Prompt patterns are reusable structures that help you get consistent, high-quality results from language models. Understanding them empowers you to choose the right style for your goal.
 
-### 🧾 Common Prompt Types
+### Common Prompt Types
 
 1. **Instructional Prompts**
 Directly ask the model to perform a task, e.g.:
@@ -112,13 +112,13 @@ English: I’m hungry → Portuguese:
 | Zero-Shot         | Fast and generic tasks                  | “Translate to Spanish…”                       |
 | Few-Shot          | Custom structure or format              | “English → French examples…”                  |
 
-### 🧠 Exercise 2: Prompt Comparison Activity
+### Exercise 2: Prompt Comparison Activity
 
 Use the following task and try prompting it in three different styles.
 
 **Task**: Recommend three books for someone interested in artificial intelligence.
 
-### 🧪 Why Iteration Matters
+### Why Iteration Matters
 
 Prompting is often **not a one-shot process**. Even good prompts may return incomplete, vague, or misleading results. The key is to **test, analyze, and refine**.
 
@@ -128,7 +128,7 @@ Iteration helps you:
 - Adjust tone or output format
 - Explore different framing approaches
 
-### 🛠️ The Iterative Prompting Process
+### The Iterative Prompting Process
 
 1. **Draft the initial prompt**  
    _Write a basic version of your request._
@@ -156,7 +156,7 @@ Explain climate change in simple terms for a high school student, using 3 key po
 ```
 Explain climate change in simple terms for a high school student. Use 3 bullet points and include one analogy related to daily life.
 ```
-### ⚠️ Tips for Troubleshooting and Improving Prompts
+### Tips for Troubleshooting and Improving Prompts
 
 - If output is **too generic**: Add specific instructions or examples.
 - If output **hallucinates**: Ask the model to “only use provided information.”
