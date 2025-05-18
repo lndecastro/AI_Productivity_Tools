@@ -120,7 +120,7 @@ AI Productivity Tools
 - Screenshot or export your visual  
 - Optionally upload to Padlet, Word, or Google Slides
 
-**Bonus Ideas:**  
+## 3.5 Bonus Ideas
 - Multiple variations  
 - Turn mind maps into layouts  
 - Generate visual metaphors 
@@ -132,7 +132,7 @@ AI Productivity Tools
 3. Generate a graphic illustrating the metaphor for use in a team-building slide.
 ```
 
-## 3.5 Wrap-Up Reflection
+## 3.6 Wrap-Up Reflection
 
 - What was your visual goal?  
 - Which tool was most useful?  
