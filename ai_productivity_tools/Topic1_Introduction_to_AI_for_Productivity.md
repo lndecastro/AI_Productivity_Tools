@@ -156,6 +156,31 @@ Explain climate change in simple terms for a high school student, using 3 key po
 ```
 Explain climate change in simple terms for a high school student. Use 3 bullet points and include one analogy related to daily life.
 ```
+
+### Prompt Experiment Classwork
+
+You support retail sales analysis at Contoso. The VP of Regional Sales needs an assessment to guide monthly discount strategies.
+Task: Compare net ‘ Sales’ for this observation to average for all ‘Product’ sold under this ‘Discount Band’, and ‘ Sales’ for this ‘Product’ in this ‘Month’.
+| Segment | Country | Product | Discount Band | Sales | Month | Year |
+| Government | United States of America | Montana | Medium | 178500.35 | October | 2014 |
+
+**Step 1 – Chain-of-Thought (show your work):**
+```
+1. Compare Averages: Current vs average Sales with this Product and Discount Band, and vs average Sales with this Product and Month.
+2. Compare Segment: Calculate and compare this point to performance of this Product in each other Segment in this Country.
+3. Compare Country: Calculate and compare this point to all performance in the Country, and performance in all Countries.
+4. Compare Product: Calculate and compare this point to all performance of this Product, and performance of all Products.
+5. Compare and Discuss: Review this point in comparison to historical, country, and product performance, and infer overall performance.
+```
+**Step 2 – Analysis:**
+```
+Write a concise paragraph identifying trends and discussing likely drivers behind any variance.
+```
+**Step 3 – Prediction:** 
+```
+Based on findings, advise whether Contoso should continue, adjust, or halt this Discount Band.
+```
+
 ### Tips for Troubleshooting and Improving Prompts
 
 - If output is **too generic**: Add specific instructions or examples.
