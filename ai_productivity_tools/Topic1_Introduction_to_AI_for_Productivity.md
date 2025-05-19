@@ -142,7 +142,7 @@ Iteration helps you:
 4. **Test again**  
    _Compare outputs, note improvements, and repeat if needed._
 
-### Prompt Iteration and Debugging Examples
+### Exercise 3: Prompt Iteration and Debugging Examples
 
 **Poor Prompt:**
 ```
@@ -157,7 +157,7 @@ Explain climate change in simple terms for a high school student, using 3 key po
 Explain climate change in simple terms for a high school student. Use 3 bullet points and include one analogy related to daily life.
 ```
 
-### Prompt Experiment Classwork
+### Exercise 4: Prompt Experiment Classwork
 
 You support retail sales analysis at Contoso. The VP of Regional Sales needs an assessment to guide monthly discount strategies.
 Task: Compare net ‘ Sales’ for this observation to average for all ‘Product’ sold under this ‘Discount Band’, and ‘ Sales’ for this ‘Product’ in this ‘Month’.
