@@ -159,12 +159,12 @@ Explain climate change in simple terms for a high school student. Use 3 bullet p
 
 ### Exercise 4: Prompt Experiment Classwork
 
+```
 You support retail sales analysis at Contoso. The VP of Regional Sales needs an assessment to guide monthly discount strategies.
-Task: Compare net ‘ Sales’ for this observation to average for all ‘Product’ sold under this ‘Discount Band’, and ‘ Sales’ for this ‘Product’ in this ‘Month’. <br>
-| Segment | Country | Product | Discount Band | Sales | Month | Year | <br>
+Task: Compare net ‘ Sales’ for this observation to average for all ‘Product’ sold under this ‘Discount Band’, and ‘ Sales’ for this ‘Product’ in this ‘Month’.
+| Segment | Country | Product | Discount Band | Sales | Month | Year |
 | Government | United States of America | Montana | Medium | 178500.35 | October | 2014 |
 
-```
 Step 1 – Chain-of-Thought (show your work):
 1. Compare Averages: Current vs average Sales with this Product and Discount Band, and vs average Sales with this Product and Month.
 2. Compare Segment: Calculate and compare this point to performance of this Product in each other Segment in this Country.
