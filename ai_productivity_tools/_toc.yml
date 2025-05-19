@@ -3,6 +3,8 @@ format: jb-book
 root: intro.md
 
 chapters:
+  - file: Resources.md
+    title: "Resources"
   - file: Topic1_Introduction_to_AI_for_Productivity.md
     title: "Topic 1: Introduction to AI for Productivity"
   - file: Topic2_Document_Reading_Summarization_and_Preparation.md
@@ -15,4 +17,6 @@ chapters:
     title: "Topic 5: Email Management"
   - file: Topic6_Meeting_Recording_and_Summarization.md
     title: "Topic 6: Meeting Recording and Summarization"
+  - file: Topic7_AI_Assistant.md
+    title: "Topic 7: AI Assistant"
 
