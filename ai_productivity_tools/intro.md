@@ -112,7 +112,7 @@ The IMDB (Internet Movie Database) dataset is a widely used benchmark for sentim
 [IMDB Dataset Spreadsheet](./data/IMDBDataset_Short.csv). 
 
 **Scientific Papers** <br>
-These files correspond to scientific papers and a book chapter published by Dr. Leandro de Castro over the past few years.
+These files correspond to scientific papers and a book chapter published by Dr. Leandro de Castro over the past few years. <br>
 [Paper 01](./data/Paper01.pdf) <br>
 [Paper 02](./data/Paper02.pdf) <br>
 [Paper 03](./data/Paper03.pdf) <br>
