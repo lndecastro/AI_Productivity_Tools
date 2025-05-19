@@ -171,13 +171,9 @@ Task: Compare net ‘ Sales’ for this observation to average for all ‘Produc
 3. Compare Country: Calculate and compare this point to all performance in the Country, and performance in all Countries.
 4. Compare Product: Calculate and compare this point to all performance of this Product, and performance of all Products.
 5. Compare and Discuss: Review this point in comparison to historical, country, and product performance, and infer overall performance.
-```
-**Step 2 – Analysis:**
-```
+Step 2 – Analysis:
 Write a concise paragraph identifying trends and discussing likely drivers behind any variance.
-```
-**Step 3 – Prediction:** 
-```
+Step 3 – Prediction:
 Based on findings, advise whether Contoso should continue, adjust, or halt this Discount Band.
 ```
 
