@@ -1,0 +1,679 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Welcome to the “AI Productivity Tools” Workshop &#8212; AI Productivity Tools</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Resources" href="Resources.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">AI Productivity Tools</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Welcome to the “AI Productivity Tools” Workshop
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Resources.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic1_Introduction_to_AI_for_Productivity.html">Topic 1: Introduction to AI for Productivity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic2_Document_Reading_Summarization_and_Preparation.html">Topic 2: Document Reading, Summarization, and Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic3_Image_and_SmartArt_Generation.html">Topic 3: Image and SmartArt Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic4_Slide_and_Presentation_Generation.html">Topic 4: Slide and Presentation Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic5_Email_Management.html">Topic 5: Email Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic6_Meeting_Recording_and_Summarization.html">Topic 6: Meeting Recording and Summarization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic7_AI_Assistant.html">Topic 7: AI Assistant</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/ai_productivity_tools" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/ai_productivity_tools/edit/main/docs/intro.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/intro.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Welcome to the “AI Productivity Tools” Workshop</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-the-instructor-and-teaching-assistants">1. About the Instructor and Teaching Assistants</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-you-will-learn">2. What You Will Learn</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-and-approach">3. Structure and Approach</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#genai-tools-to-be-studied">4. GenAI Tools to be Studied</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chatgpt">ChatGPT</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#claude-ai">Claude.ai</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#perplexity">Perplexity</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grok">Grok</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-ai">Meta AI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#copilot">Copilot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gemini">Gemini</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notebooklm">NotebookLM</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#napkin">Napkin</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma">Gamma</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mailmaestro">MailMaestro</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#otter-ai">Otter.ai</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-studio">AI Studio</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">5. Resources</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-the-ai-productivity-tools-workshop">
+<h1>Welcome to the “AI Productivity Tools” Workshop<a class="headerlink" href="#welcome-to-the-ai-productivity-tools-workshop" title="Link to this heading">#</a></h1>
+<p>Artificial Intelligence (AI) is rapidly transforming the way we work, communicate, and manage information. In this hands-on workshop, we explore how AI-powered tools can be seamlessly integrated into everyday professional tasks to significantly boost productivity, creativity, and decision-making.</p>
+<p>This workshop is part of the <strong>Dendritic Institute</strong>’s mission to advance AI and Data Science education through human-centered approaches. Designed for professionals, educators, researchers, and students alike, this session emphasizes <strong>practical applications</strong> and <strong>ethical considerations</strong> surrounding the use of generative AI technologies.</p>
+<section id="about-the-instructor-and-teaching-assistants">
+<h2>1. About the Instructor and Teaching Assistants<a class="headerlink" href="#about-the-instructor-and-teaching-assistants" title="Link to this heading">#</a></h2>
+<p>Dr. Leandro Nunes de Castro (AI and Data Science Professor &amp; Dendritic Program Director) <br>
+Jeremy Martin (BS Software Engineering) <br>
+John Peller (BS Software Engineering) <br>
+Marcelo Amorim (BS Software Engineering) <br>
+Timothy Meinert (BS Software Engineering)</p>
+<p>Dendritic: A Human-Centered Artificial Intelligence and Data Science Institute <br>
+U.A. Whitaker College of Engineering<br>
+Florida Gulf Coast University</p>
+</section>
+<section id="what-you-will-learn">
+<h2>2. What You Will Learn<a class="headerlink" href="#what-you-will-learn" title="Link to this heading">#</a></h2>
+<p>Participants will explore AI tools across the following domains:</p>
+<p><strong>1. Introduction to Prompt Engineering</strong><br />
+Learn the fundamentals of prompt engineering, including how to structure effective prompts and how to apply different prompt types to guide AI tools toward more accurate and useful results.</p>
+<p><strong>2. Document Summarization and Preparation</strong><br />
+Learn how to summarize texts, extract key insights, and generate professional-quality documents using tools like ChatGPT, <a class="reference external" href="http://Claude.ai">Claude.ai</a>, and Perplexity AI.</p>
+<p><strong>3. Image and Diagram Generation</strong><br />
+Generate high-quality visuals, SmartArt, and concept diagrams from text or bullet lists with tools like ChatGPT-4o, <a class="reference external" href="http://Meta.ai">Meta.ai</a>, and <a class="reference external" href="http://Napkin.ai">Napkin.ai</a>.</p>
+<p><strong>4. Slide and Presentation Creation</strong><br />
+Automatically generate engaging, professional slides from existing text or documents using Gamma.app and Microsoft Copilot.</p>
+<p><strong>5. Email Management and Communication</strong><br />
+Streamline your inbox with smart summaries, auto-replies, and personalized responses using AI tools.</p>
+<p><strong>6. Meeting Transcription and Summarization</strong><br />
+Use tools like <a class="reference external" href="http://Otter.ai">Otter.ai</a> and <a class="reference external" href="http://Fireflies.ai">Fireflies.ai</a> to transcribe meetings, extract action items, and share summarized notes with your team.</p>
+<p><strong>7. Personal Assistants</strong><br />
+Use tools like <a class="reference external" href="http://aistudio.google.com">aistudio.google.com</a> to help you navigate through various tools and environments, working as a personal voice-assistant capable of interacting with the physical and digital worlds.</p>
+</section>
+<section id="structure-and-approach">
+<h2>3. Structure and Approach<a class="headerlink" href="#structure-and-approach" title="Link to this heading">#</a></h2>
+<p>Each session is structured around a short introduction, hands-on activity, and a reflection period. You will be encouraged to:</p>
+<ul class="simple">
+<li><p>Experiment with AI prompts tailored to your professional context</p></li>
+<li><p>Compare outputs across different tools</p></li>
+<li><p>Share findings and discuss best practices</p></li>
+<li><p>Develop your own AI-enhanced productivity workflow</p></li>
+</ul>
+<p>At the end of the workshop, participants will complete a final project applying AI tools to a task relevant to their field or organization.</p>
+</section>
+<section id="genai-tools-to-be-studied">
+<h2>4. GenAI Tools to be Studied<a class="headerlink" href="#genai-tools-to-be-studied" title="Link to this heading">#</a></h2>
+<section id="chatgpt">
+<h3>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading">#</a></h3>
+<p>ChatGPT is a versatile AI language model developed by OpenAI, capable of interpreting natural language, performing various statistical analyses, coding in Python, and generating data visualizations such as bar charts, pie charts, scatter plots, and histograms. It supports data uploads in formats like CSV, XLSX, PDF, and JSON (up to 50MB) and can integrate with cloud storage like Google Drive and OneDrive. ChatGPT excels in broad AI capabilities including data analysis, summarization, and storytelling. It requires web browsing for real-time data updates.
+Access ChatGPT here: [<a class="reference external" href="https://chat.openai.com/">https://chat.openai.com/</a>]</p>
+</section>
+<section id="claude-ai">
+<h3><a class="reference external" href="http://Claude.ai">Claude.ai</a><a class="headerlink" href="#claude-ai" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="http://Claude.ai">Claude.ai</a> is an AI assistant with strong natural language processing capabilities and expanding tools for data analysis. It supports data uploads and can process data using JavaScript within its Analysis Tool. <a class="reference external" href="http://Claude.ai">Claude.ai</a> can perform complex calculations, data manipulation, and create visualizations through its Analysis Tool and Artifacts feature. It primarily analyzes uploaded data and does not rely on real-time web browsing.
+Access <a class="reference external" href="http://Claude.ai">Claude.ai</a> here: [<a class="reference external" href="https://claude.ai/">https://claude.ai/</a>]</p>
+</section>
+<section id="perplexity">
+<h3>Perplexity<a class="headerlink" href="#perplexity" title="Link to this heading">#</a></h3>
+<p>Perplexity is a research-focused AI platform emphasizing data-driven insights and real-time web search integration. It allows file uploads for analysis and uses coding capabilities within its Deep Research mode to identify patterns, trends, and anomalies. Perplexity integrates web search for broader context and is particularly strong in providing current data and research-backed answers.
+Access Perplexity here: [<a class="reference external" href="https://www.perplexity.ai">https://www.perplexity.ai</a>]</p>
+</section>
+<section id="grok">
+<h3>Grok<a class="headerlink" href="#grok" title="Link to this heading">#</a></h3>
+<p>Grok is a conversational AI developed by Elon Musk’s xAI, designed to provide witty, insightful, and real-time responses. Integrated with X (formerly Twitter), Grok emphasizes reasoning and humor, offering a more personality-driven interaction style. It supports real-time data access and is positioned as a competitor to ChatGPT and Gemini. Access Grok here: [<a class="reference external" href="https://x.ai">https://x.ai</a>]</p>
+</section>
+<section id="meta-ai">
+<h3>Meta AI<a class="headerlink" href="#meta-ai" title="Link to this heading">#</a></h3>
+<p>Meta AI is Meta’s suite of generative AI tools embedded across Facebook, Instagram, WhatsApp, and Messenger. It offers multimodal capabilities including text, image, and video generation, and supports real-time chat, creative content generation, and productivity tasks. Meta AI is powered by the Llama 4 model and is accessible via Meta’s apps and a standalone assistant. Access Meta AI here: [<a class="reference external" href="https://www.meta.ai">https://www.meta.ai</a>]</p>
+</section>
+<section id="copilot">
+<h3>Copilot<a class="headerlink" href="#copilot" title="Link to this heading">#</a></h3>
+<p>Copilot is Microsoft’s AI assistant integrated across tools like Word, Excel, PowerPoint, Outlook, and Teams. It leverages large language models to help users draft content, analyze data, summarize meetings, and automate workflows. In Excel, it can generate formulas, create charts, and explain data trends. In Word and PowerPoint, it assists with writing, editing, and designing presentations. Copilot is deeply embedded in Microsoft 365, enhancing productivity through natural language commands. Access Copilot here: [<a class="reference external" href="https://copilot.microsoft.com">https://copilot.microsoft.com</a>]</p>
+</section>
+<section id="gemini">
+<h3>Gemini<a class="headerlink" href="#gemini" title="Link to this heading">#</a></h3>
+<p>Gemini is Google’s family of multimodal AI models integrated into Google Workspace and available via the Gemini web app. It assists users in drafting, summarizing, brainstorming, analyzing documents, and generating code. Within Docs, Gmail, and Sheets, Gemini enhances productivity by offering smart suggestions, data insights, and content generation. It also supports image understanding and code interpretation through its advanced model versions. Access Gemini here: [<a class="reference external" href="https://gemini.google.com">https://gemini.google.com</a>]</p>
+</section>
+<section id="notebooklm">
+<h3>NotebookLM<a class="headerlink" href="#notebooklm" title="Link to this heading">#</a></h3>
+<p>NotebookLM is a personalized AI research assistant from Google designed to help users work with their own documents. It can summarize large texts, generate FAQs, suggest outlines, timelines, and even podcast scripts. Unlike general-purpose chatbots, NotebookLM focuses on grounded responses based solely on the sources provided by the user, making it ideal for academic, legal, and research-based tasks.
+Access NotebookLM here: [<a class="reference external" href="https://notebooklm.google">https://notebooklm.google</a>]</p>
+</section>
+<section id="napkin">
+<h3>Napkin<a class="headerlink" href="#napkin" title="Link to this heading">#</a></h3>
+<p>Napkin is a visual storytelling AI tool that transforms plain text into professional diagrams, infographics, and flowcharts. It is ideal for business presentations, educational content, and social media visuals. Users can customize visuals with icons, connectors, and themes, and export them in formats like PNG, PDF, and SVG. Access Napkin here: [<a class="reference external" href="https://www.napkin.ai">https://www.napkin.ai</a>]</p>
+</section>
+<section id="gamma">
+<h3>Gamma<a class="headerlink" href="#gamma" title="Link to this heading">#</a></h3>
+<p>Gamma is an AI-powered content creation platform for building presentations, documents, and websites. It uses natural language prompts to generate scrollable, interactive content with modern design. Gamma is ideal for pitch decks, proposals, and educational materials, and supports real-time collaboration and publishing. Access Gamma here: [<a class="reference external" href="https://gamma.app">https://gamma.app</a>]</p>
+</section>
+<section id="mailmaestro">
+<h3>MailMaestro<a class="headerlink" href="#mailmaestro" title="Link to this heading">#</a></h3>
+<p>MailMaestro is an AI email assistant for Microsoft Outlook and Gmail that helps users write, summarize, and manage emails efficiently. It supports multiple languages, customizable tones, and integrates with calendars for scheduling. Powered by models like ChatGPT and Claude, it enhances productivity with one-click replies and thread summarization. Access MailMaestro here: [<a class="reference external" href="https://www.maestrolabs.com">https://www.maestrolabs.com</a>]</p>
+</section>
+<section id="otter-ai">
+<h3><a class="reference external" href="http://Otter.ai">Otter.ai</a><a class="headerlink" href="#otter-ai" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="http://Otter.ai">Otter.ai</a> is an AI meeting assistant that transcribes, summarizes, and analyzes meetings in real time. It integrates with Zoom, Google Meet, and Microsoft Teams, and provides searchable transcripts, action items, and summaries. Otter is widely used in business, education, and media for productivity and collaboration. Access Otter here: [<a class="reference external" href="https://otter.ai">https://otter.ai</a>]</p>
+</section>
+<section id="ai-studio">
+<h3>AI Studio<a class="headerlink" href="#ai-studio" title="Link to this heading">#</a></h3>
+<p>Google AI Studio is a development platform for building with Gemini, Google’s multimodal AI models. It supports chat, code execution, file analysis, and video generation. Designed for both beginners and developers, AI Studio enables rapid prototyping and integration of AI into applications with a user-friendly interface. Access AI Studio here: [<a class="reference external" href="https://aistudio.google.com">https://aistudio.google.com</a>]</p>
+</section>
+</section>
+<section id="resources">
+<h2>5. Resources<a class="headerlink" href="#resources" title="Link to this heading">#</a></h2>
+<p><strong>CourtListener (RECAP Archive)</strong> <br>
+A massive open archive of U.S. court decisions and dockets. Website: [<a class="reference external" href="https://www.courtlistener.com">https://www.courtlistener.com</a>] <br>
+Format: Opinions, case law, filings (HTML, JSON, bulk download) <br>
+<a class="reference download internal" download="" href="_downloads/6a68b143b6de415be96dc6e54fe104a2/Text_Legal01.pdf"><span class="xref download myst">Dataset 01</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/81d1400cc74d4c7c0b7cc910db17388b/Text_Legal02.pdf"><span class="xref download myst">Dataset 02</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/8040e10dab43e50bf29676430fb00c7e/Text_Legal03.pdf"><span class="xref download myst">Dataset 03</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/13bfa6539d7821b250f199bf56123790/Text_Legal04.pdf"><span class="xref download myst">Dataset 04</span></a> <br></p>
+<p><strong>Movie Reviews - IMDB Dataset</strong> <br>
+The IMDB (Internet Movie Database) dataset is a widely used benchmark for sentiment analysis and text classification tasks. It contains movie reviews from IMDB users labeled as positive or negative, making it ideal for binary sentiment classification. For more dataset information, please go through the following link: [<a class="reference external" href="http://ai.stanford.edu/~amaas/data/sentiment/">http://ai.stanford.edu/~amaas/data/sentiment/</a>]. <br>
+<a class="reference download internal" download="" href="_downloads/872be77860d9ad2d0dc6dfae44bb0bfa/IMDBDataset_Short.csv"><span class="xref download myst">IMDB Dataset Spreadsheet</span></a>.</p>
+<p><strong>Scientific Papers</strong> <br>
+These files correspond to scientific papers and a book chapter published by Dr. Leandro de Castro over the past few years. <br>
+<a class="reference download internal" download="" href="_downloads/f0adf27f570641fd776008fd9401840b/Paper01.pdf"><span class="xref download myst">Paper 01</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/ce89a5053e479bb9e9716f00351a3ccc/Paper02.pdf"><span class="xref download myst">Paper 02</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/b15a59a0efd67d463bbe6338ba4b5204/Paper03.pdf"><span class="xref download myst">Paper 03</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/e4cb4eaefddb64358f674e4b4593ca9c/Paper04.pdf"><span class="xref download myst">Paper 04</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/dca50f5c6f1c5438a69166cb9d8a64c2/Paper05.pdf"><span class="xref download myst">Paper 05</span></a> <br></p>
+<p><strong>Microsoft Financial Sample Excel Workbook</strong> <br>
+<a class="reference download internal" download="" href="_downloads/a19d0d6813595abfc56bb3f6fc25a408/FinancialSample.xlsx"><span class="xref download myst">Spreadsheet download</span></a> Available at: [<a class="reference external" href="https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download">https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download</a>]</p>
+<p><strong>Image of a Robot Interviewing a Human</strong> <br>
+<a class="reference download internal" download="" href="_downloads/aeb8aefd5b5f3b92da9fbcc1f31f1ee5/RobotInterview.jpg"><span class="xref download myst">Image download</span></a></p>
+<p><strong>Files to be Used with <a class="reference external" href="http://Otter.ai">Otter.ai</a></strong> <br>
+<a class="reference download internal" download="" href="_downloads/5ae9d6e7006c386adbee949eda683976/Apple2024Form.wav"><span class="xref download myst">Audio file download</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/e45f20d2326d205fd7e18437fd67af6e/LegalDepositionTranscript.pdf"><span class="xref download myst">Scenario 1 download</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/1e8710fb0d7bf116f872272bf537dc30/SalesDramaScenario.pdf"><span class="xref download myst">Scenario 2 download</span></a> <br>
+<a class="reference download internal" download="" href="_downloads/ac11b117046e286d8c25f88894596d8a/VoiceAssistantScenario.pdf"><span class="xref download myst">Scenario 3 download</span></a></p>
+<p><strong>Apple NASDAQ Release</strong> <br>
+<a class="reference download internal" download="" href="_downloads/08d2b88ae8c142c52acfa67d012fba09/NASDAQ_AAPL_2024.pdf"><span class="xref download myst">File download</span></a></p>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="right-next"
+       href="Resources.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Resources</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-the-instructor-and-teaching-assistants">1. About the Instructor and Teaching Assistants</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-you-will-learn">2. What You Will Learn</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-and-approach">3. Structure and Approach</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#genai-tools-to-be-studied">4. GenAI Tools to be Studied</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chatgpt">ChatGPT</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#claude-ai">Claude.ai</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#perplexity">Perplexity</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grok">Grok</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-ai">Meta AI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#copilot">Copilot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gemini">Gemini</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notebooklm">NotebookLM</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#napkin">Napkin</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma">Gamma</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mailmaestro">MailMaestro</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#otter-ai">Otter.ai</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-studio">AI Studio</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">5. Resources</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Leandro Nunes de Castro, Ph.D.
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
