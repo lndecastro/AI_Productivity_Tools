@@ -44,7 +44,11 @@ Using [ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai), [Perplexity]
 
 **Example Prompts:**
 
-*Instructional Prompt*
+*Instructional Prompt 1*
+```
+Write an email update summarizing today’s meeting for someone who wasn’t there.
+```
+*Instructional Prompt 2*
 ```
 Summarize the key outcomes of this meeting. Include:
 - A concise 3-sentence summary
