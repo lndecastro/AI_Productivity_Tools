@@ -28,9 +28,9 @@ These files correspond to scientific papers and a book chapter published by Dr. 
 
 ## Files to be Used with Otter.ai <br>
 [Audio file download](./data/Apple2024Form.wav) <br>
-[Scenario 1 download](./data/LegalDepositionTranscript.pdf) <br>
-[Scenario 2 download](./data/SalesDramaScenario.pdf) <br>
-[Scenario 3 download](./data/VoiceAssistantScenario.pdf)
+[Scenario 1 download: Legal Deposition](./data/LegalDepositionTranscript.pdf) <br>
+[Scenario 2 download: Sales Drama](./data/SalesDramaScenario.pdf) <br>
+[Scenario 3 download: Voice Assistant](./data/VoiceAssistantScenario.pdf)
 
 ## Apple NASDAQ Release
 [File download](./NASDAQ_AAPL_2024.pdf)
