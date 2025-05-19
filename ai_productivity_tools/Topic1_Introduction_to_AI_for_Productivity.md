@@ -164,8 +164,8 @@ Task: Compare net ‘ Sales’ for this observation to average for all ‘Produc
 | Segment | Country | Product | Discount Band | Sales | Month | Year | <br>
 | Government | United States of America | Montana | Medium | 178500.35 | October | 2014 |
 
-**Step 1 – Chain-of-Thought (show your work):**
 ```
+Step 1 – Chain-of-Thought (show your work):
 1. Compare Averages: Current vs average Sales with this Product and Discount Band, and vs average Sales with this Product and Month.
 2. Compare Segment: Calculate and compare this point to performance of this Product in each other Segment in this Country.
 3. Compare Country: Calculate and compare this point to all performance in the Country, and performance in all Countries.
