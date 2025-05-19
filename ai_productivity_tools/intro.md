@@ -130,3 +130,6 @@ These files correspond to scientific papers and a book chapter published by Dr. 
 [Scenario 1 download](./data/LegalDepositionTranscript.pdf) <br>
 [Scenario 2 download](./data/SalesDramaScenario.pdf) <br>
 [Scenario 3 download](./data/VoiceAssistantScenario.pdf)
+
+**Apple NASDAQ Release** <br>
+[File download](./NASDAQ_AAPL_2024.pdf)
