@@ -1,9 +1,9 @@
 # 2. Document Reading, Summarization, and Preparation 
-In the age of information overload, professionals across all fields face the challenge of efficiently processing and acting on large volumes of text. This section introduces practical strategies for leveraging AI tools to read, summarize, and prepare documents with speed and precision. Whether you're reviewing a lengthy report, drafting a business proposal, or turning complex research into accessible insights, generative AI can serve as a powerful assistant. Through hands-on exercises and real-world examples, participants will learn how to transform dense content into actionable knowledge using leading tools like ChatGPT, Perplexity AI, and NotebookLM.
+In the age of information overload, professionals across all fields face the challenge of efficiently processing and acting on large volumes of text. This chapter introduces practical strategies for leveraging AI tools to read, summarize, and prepare documents with speed and precision. Whether you're reviewing a lengthy report, drafting a business proposal, or turning complex research into accessible insights, generative AI can serve as a powerful assistant. Through hands-on exercises and real-world examples, participants will learn how to transform dense content into actionable knowledge using leading tools like ChatGPT, Perplexity AI, and NotebookLM.
 
 ## 2.1 Objective
 
-By the end of this session, participants will be able to:
+By the end of this chapter, participants will be able to:
 
 - Use AI tools to summarize long documents, extract key insights, and draft professional documents.
 - Apply generative AI to their specific work or study context (e.g., education, business, research, law, healthcare, etc.).
@@ -113,7 +113,7 @@ Pick a goal from below and ask the AI to help you create a draft:
 
 *Social Media Post (Role-Based + Instructional Prompt)*
 ```
-Act as a senior social media strategist. I need to create an engaging social media post for my company's new eco-friendly product line.
+Act as a senior social media strategist. You need to create an engaging social media post for your company's new eco-friendly product line.
 We're a mid-sized furniture company called GreenHome launching sustainable bamboo furniture (chairs, tables, and shelves) that uses no plastic and comes with a 10-year warranty.
 Our target audience is environmentally conscious homeowners ages 30-45 who value quality and sustainability.
 The post should highlight our sustainability commitment, mention our upcoming 15% launch discount valid for the next two weeks, and include a call-to-action to visit our website.
