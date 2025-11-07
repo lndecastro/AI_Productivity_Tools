@@ -3,7 +3,7 @@ name: Deploy Jupyter Book to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change if your default branch is different
+      - main
 
 jobs:
   build-deploy:
@@ -21,12 +21,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install jupyter-book ghp-import
+          pip install -r requirements.txt
+
+      - name: Clean previous Book builds
+        run: jupyter-book clean AIPT --all || true
 
       - name: Build Jupyter Book
-        run: |
-          jupyter-book build ai_productivity_tools
+        run: jupyter-book build AIPT
 
       - name: Deploy to GitHub Pages
-        run: |
-          ghp-import -n -p -f ai_productivity_tools/_build/html
+        run: ghp-import -n -p -f AIPT/_build/html
